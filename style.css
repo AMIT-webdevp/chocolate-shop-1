@@ -1,0 +1,68 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+#app {
+    background-color: brown;
+    border: 1px solid black;
+    max-width: 800px;
+    margin: 50px auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+}
+
+#app {
+    box-shadow: 10px 10px;
+  }
+h1, h2 {
+    text-align: center;
+}
+
+#chocolateList {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.chocolateItem {
+    background-color: aqua;
+    border: 1px solid black;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.chocolateItem:hover {
+    background-color: red;
+  }
+  
+/* Select box*/
+.chocolateItem.selected {
+    
+    background-color: orangered;
+}
+.chocolateItem.selected{
+    box-shadow: 10px 10px;
+  }
+.chocolateItem.selected:hover {
+    background-color: red;
+  }
+
+#summary {
+    color:black;
+    margin-top: 20px;
+}
+/* Selected list */
+#orderSummary {
+    color:black;
+    list-style-type: none;
+    padding: 0;
+}
+/*final total */
+#orderSummary li {
+    
+    margin-bottom: 10px;
+}
